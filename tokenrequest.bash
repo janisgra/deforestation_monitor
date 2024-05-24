@@ -18,10 +18,10 @@ echo $accessToken
 $accessTokenManuel>token.txt
 
 # Requesting the information about the processing jobs
-information=$(curl --request GET \
---url https://api.up42.com/v2/processing/jobs \
---header 'accept: application/json' \
---header 'authorization: Bearer $accessToken' 2>/dev/null)
+#information=$(curl --request GET \
+#--url https://api.up42.com/v2/processing/jobs \
+#--header 'accept: application/json' \
+#--header 'authorization: Bearer $accessToken' 2>/dev/null)
 
 # Displaying the information
 #echo $information
